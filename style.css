@@ -1,0 +1,202 @@
+*,
+*::before, 
+*::after {
+    margin: 0px;
+}
+
+
+img, 
+picture {
+    width: 100px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    text-shadow: 0 0 1px black;
+}
+
+
+body {
+    text-align: center;
+    margin: 10px;
+    font-family: 'Happy Monkey', cursive;
+
+}
+
+#header {
+    color: white;
+    background-image: url("./images/header1.jpg");
+    background-size: cover;
+    background-position: center; 
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+
+#title {
+    background-color: purple;
+    margin: 0 auto;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+
+#subtitle {
+    background-color: peru;
+    margin: 15px auto;
+    padding: 2px;
+    width: 400px;
+    border-radius: 10px;
+    
+}
+
+.activites-section {
+   background-color: azure;
+}
+
+.activites-section h3:first-child  {
+    color: purple;
+    padding-top: 15px;
+}
+
+.activities {
+    margin: auto auto;
+    width: 250px;
+    height: 280px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.activities > * {
+    padding: 5px;
+}
+
+.activities > img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.container {
+    display: flex;
+    flex-direction: row; 
+}
+
+.guide-section {
+    height: 200px;
+    width: 400px;
+    margin: 30px auto auto;
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: antiquewhite;
+    border-bottom: 10px solid purple;
+    transition: 1s ease;
+
+}
+
+.guide-section:hover {
+        -webkit-transform: rotateZ(-10deg);
+        -ms-transform: rotateZ(-10deg);
+        transform: rotateZ(-10deg);
+        transition: 1s ease;
+}
+
+.guide-section > * {
+    padding: 5px;
+
+}
+
+#guide-info {
+    margin: auto auto;
+}
+
+
+#guide-info > * {
+    padding: 5px;
+}
+
+.guide-img {
+    border-radius: 10px;
+    margin: auto 10px;
+    height: 150px;
+    width: 300px;
+    background-image: url("images/profile.jpg");
+    background-size: cover;
+    transition: 1s ease;
+}
+
+.guide-img:hover {
+    -webkit-transform: rotateZ(+10deg);
+    -ms-transform: rotateZ(+10deg);
+    transform: rotateZ(+10deg);
+    transition: 1s ease;
+}
+
+
+#guide-title {
+    margin-bottom: 30px;
+
+}
+
+#guide-name {
+    margin-top: 20px;
+}
+
+.footer {
+    margin-top: 30px;
+    font-style: italic;
+}
+
+.sanmarco-activities {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-image: url("./images/sanmarco.jpg");
+    background-size: cover;
+    margin: auto auto;
+    
+}
+
+.sanmarco-activities:hover {
+    cursor: pointer;
+    background-image: url("https://media.giphy.com/media/L3WB6hCkBYkIQhQ8lt/giphy-downsized-large.gif");
+}
+
+.gondola-activities {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-image: url("./images/gondola.jpg");
+    background-size: cover;
+    background-position: center;
+    margin: auto auto;
+}
+
+.gondola-activities:hover {
+    cursor: pointer;
+    background-image: url("https://media.giphy.com/media/d83anuZRPgIAFtTR35/giphy.gif");
+}
+
+.sospiri-activities {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-image: url("./images/pontesospiri.jpg");
+    background-size: cover;
+    background-position: center;
+    margin: auto auto;
+}
+
+.sospiri-activities:hover {
+    cursor: pointer;
+    background-image: url("https://media.giphy.com/media/lrKNrNenUrLcJWCDYj/giphy.gif");
+}
+
