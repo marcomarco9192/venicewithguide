@@ -30,7 +30,7 @@ body {
 
 #header {
     color: white;
-    background-image: url("./images/header1.jpg");
+    background-image: url("header1.jpg");
     background-size: cover;
     background-position: center; 
     height: 300px;
@@ -128,7 +128,7 @@ body {
     margin: auto 10px;
     height: 150px;
     width: 300px;
-    background-image: url("images/profile.jpg");
+    background-image: url("profile.jpg");
     background-size: cover;
     transition: 1s ease;
 }
@@ -159,7 +159,7 @@ body {
     height: 150px;
     width: 150px;
     border-radius: 50%;
-    background-image: url("./images/sanmarco.jpg");
+    background-image: url("sanmarco.jpg");
     background-size: cover;
     margin: auto auto;
     
@@ -174,7 +174,7 @@ body {
     height: 150px;
     width: 150px;
     border-radius: 50%;
-    background-image: url("./images/gondola.jpg");
+    background-image: url("gondola.jpg");
     background-size: cover;
     background-position: center;
     margin: auto auto;
@@ -189,7 +189,7 @@ body {
     height: 150px;
     width: 150px;
     border-radius: 50%;
-    background-image: url("./images/pontesospiri.jpg");
+    background-image: url("pontesospiri.jpg");
     background-size: cover;
     background-position: center;
     margin: auto auto;
